@@ -1,28 +1,28 @@
 export const site = {
-  name: "Giovanna Mendes",
-  fullName: "Giovanna Mendes",
+  name: "Miriam Souza",
+  fullName: "Miriam Souza",
   role: "Psicóloga Clínica",
-  crp: "Psicóloga Clínica — CRP 04/61587",
-  city: "Uberlândia",
+  crp: "Psicóloga Clínica — CRP 04/79446",
+  city: "Contagem",
   state: "MG",
   address: {
-    street: "Rua Cipriano Del Favero, 400, Sala 7 - Centro",
-    cityLine: "Uberlândia - MG, 38400-160",
-    mapsUrl: "https://www.google.com/maps?q=Rua+Cipriano+Del+Favero,+400,+Centro,+Uberl%C3%A2ndia+-+MG",
-    embedQuery: "Rua Cipriano Del Favero, 400, Centro, Uberlândia - MG",
+    street: "Rua Antônio Bernardino Muniz, 143 - Centro",
+    cityLine: "Contagem - MG, 32040-630",
+    mapsUrl: "https://www.google.com/maps?q=Rua+Ant%C3%B4nio+Bernardino+Muniz,+143,+Centro,+Contagem+-+MG",
+    embedQuery: "Rua Antônio Bernardino Muniz, 143, Centro, Contagem - MG",
   },
-  phoneDisplay: "(34) 9 9698-8008",
-  whatsappNumber: "5534996988008",
+  phoneDisplay: "(31) 9 8337-6372",
+  whatsappNumber: "5531983376372",
   whatsappMessage:
-    "Olá, Giovanna! Encontrei seu site e gostaria de saber mais sobre o acompanhamento psicológico.",
-  email: "giovannamendes.psi@gmail.com",
-  instagramHandle: "@giovannamendes.psi",
-  instagramUrl: "https://www.instagram.com/giovannamendes.psi",
+    "Olá, Miriam! Encontrei seu site e gostaria de saber mais sobre o acompanhamento psicológico.",
+  email: "consultoriopsic1969@gmail.com",
+  instagramHandle: "@psic.miriamsouza",
+  instagramUrl: "https://www.instagram.com/psic.miriamsouza",
   hours: "Segunda a Sexta: 8h às 18h",
   hoursNote: "As consultas necessitam ser previamente agendadas.",
-  modality: "Atendimento presencial em Uberlândia (MG) e online para todo o Brasil",
+  modality: "Atendimento presencial em Contagem (MG) e online",
   metaDescription:
-    "Giovanna Mendes é psicóloga clínica, especialista em Terapia Cognitivo-Comportamental para adolescentes, com atendimento em Uberlândia (MG) e online para todo o Brasil.",
+    "Miriam Souza é psicóloga clínica, com abordagem em TCC e Terapia Sistêmica Familiar, cuidando de mulheres, casais e famílias. Atendimento em Contagem (MG) e online.",
 } as const;
 
 export function whatsappLink(customMessage?: string) {
@@ -46,12 +46,12 @@ export const header = {
 export const hero = {
   eyebrow: site.crp,
   greeting: "Olá, sou",
-  name: "Giovanna Mendes",
+  name: "Miriam Souza",
   subtitle:
-    "Especialista em Terapia Cognitivo-Comportamental para adolescentes e jovens adultos, com atendimento presencial em Uberlândia (MG) e online para todo o Brasil.",
+    "Cuidando de mulheres e casais, com abordagem em TCC e Terapia Sistêmica Familiar, presencial em Contagem (MG) e online.",
   checklist: [
-    "Adolescentes e jovens adultos",
-    "Terapia Cognitivo-Comportamental (TCC)",
+    "Mulheres, casais e famílias",
+    "TCC e Terapia Sistêmica Familiar",
     "Atendimento presencial e online",
   ],
   ctaLabel: "Agendar consulta",
@@ -59,7 +59,7 @@ export const hero = {
   ctaSecondaryHref: "#sobre",
   image: {
     src: "/images/jadi-hero-full.png",
-    alt: "Giovanna Mendes em seu consultório",
+    alt: "Miriam Souza em seu consultório",
   },
 } as const;
 
@@ -70,12 +70,12 @@ export const heroStat = {
 
 export const heroMobile = {
   eyebrow: "PSICÓLOGA CLÍNICA",
-  title: "Giovanna Mendes",
-  tagline: "UM ESPAÇO DE ESCUTA PARA ADOLESCENTES E JOVENS ADULTOS.",
+  title: "Miriam Souza",
+  tagline: "CUIDANDO DE MULHERES E CASAIS.",
   ctaLabel: "Mais informações",
   image: {
     src: "/images/jadi-hero-mobile-2.png",
-    alt: "Giovanna Mendes sorrindo em seu consultório",
+    alt: "Miriam Souza sorrindo em seu consultório",
   },
 } as const;
 
@@ -83,41 +83,41 @@ export const specialties = {
   items: [
     {
       icon: "Flower2",
-      title: "Terapia Cognitivo-Comportamental",
+      title: "Saúde Emocional da Mulher",
       description:
-        "Através de uma abordagem estruturada e baseada em evidências, auxilio crianças e adolescentes a compreenderem pensamentos, emoções e comportamentos, desenvolvendo estratégias práticas para enfrentar os desafios do dia a dia.",
+        "Acompanhamento voltado ao cuidado da ansiedade, depressão e fortalecimento da saúde emocional feminina, com escuta acolhedora e sem julgamentos.",
     },
     {
       icon: "Sparkle",
-      title: "Adolescentes",
+      title: "Terapia de Casal",
       description:
-        "Acompanho adolescentes em seus desafios emocionais, sociais e comportamentais, oferecendo um espaço seguro de escuta, acolhimento e desenvolvimento, respeitando as particularidades dessa fase da vida.",
+        "Espaço para fortalecer a comunicação e o vínculo do casal, trabalhando os relacionamentos com base em práticas científicas.",
     },
     {
       icon: "Rainbow",
-      title: "Jovens Adultos",
+      title: "Terapia Familiar Sistêmica",
       description:
-        "Acompanho jovens adultos em momentos de mudanças, inseguranças e desafios emocionais, oferecendo um espaço acolhedor para fortalecer a autoestima, desenvolver autonomia e promover o bem-estar.",
+        "Acompanhamento para famílias, com foco em compreender dinâmicas relacionais e promover mais equilíbrio emocional para todos.",
     },
   ],
 } as const;
 
 export const about = {
-  eyebrow: "SOBRE A GIOVANNA",
+  eyebrow: "SOBRE A MIRIAM",
   greeting: "Olá, sou",
-  title: "Giovanna Mendes",
+  title: "Miriam Souza",
   paragraphs: [
-    "Sou formada em Psicologia, especialista em Terapia Cognitivo-Comportamental Multicomponentes, com um olhar clínico voltado às demandas específicas de adolescentes e jovens adultos.",
-    "Atendo com base em TCC, unindo rigor técnico e cuidado humano — cada acompanhamento é individualizado e ajustado a cada retorno, respeitando o tempo e a história de cada pessoa.",
-    "Atendo presencialmente em Uberlândia (MG) e, online, para todo o Brasil, sempre com compromisso técnico e ético em cada sessão.",
+    "Sou psicóloga, com atendimento presencial e online para adolescentes, adultos, casais e famílias. Atuo no cuidado da ansiedade, depressão, saúde emocional da mulher, relacionamentos, terapia familiar e desenvolvimento emocional.",
+    "Meu trabalho é pautado na ética, no acolhimento e em práticas baseadas em evidências, com abordagem em TCC e formação em Terapia Sistêmica Familiar.",
+    "Ofereço um plano terapêutico individualizado para promover autoconhecimento, fortalecimento da saúde mental e qualidade de vida.",
   ],
   formationCard: {
     label: "Formação",
-    text: "Psicologia, especialista em TCC para adolescentes.",
+    text: "Psicologia, com abordagem em TCC e formação em Terapia Sistêmica Familiar.",
   },
   image: {
     src: "/images/jadi-sobre.png",
-    alt: "Retrato de Giovanna Mendes",
+    alt: "Retrato de Miriam Souza",
   },
 } as const;
 
@@ -149,17 +149,17 @@ export const testimonials = {
     {
       name: "Paciente em acompanhamento",
       rating: 5,
-      text: "A Giovanna me ajudou a entender coisas que eu carregava há anos sem saber nomear. Me senti acolhido desde a primeira sessão.",
+      text: "A Miriam me ajudou a entender minha ansiedade e a fortalecer minha autoestima. Me senti acolhida em cada sessão.",
+    },
+    {
+      name: "Casal em acompanhamento",
+      rating: 5,
+      text: "A terapia de casal com a Miriam transformou nossa comunicação. Hoje conseguimos nos entender muito melhor.",
     },
     {
       name: "Paciente em acompanhamento",
       rating: 5,
-      text: "Um espaço de escuta sem julgamentos. Consegui entender melhor minhas reações e hoje lido com mais equilíbrio com o dia a dia.",
-    },
-    {
-      name: "Paciente em acompanhamento",
-      rating: 5,
-      text: "O acompanhamento com abordagem em TCC me ajudou a desenvolver estratégias práticas para lidar com a ansiedade. Recomendo muito.",
+      text: "Um espaço de escuta sem julgamentos, com uma abordagem séria e baseada em evidências. Recomendo muito.",
     },
   ],
 } as const;
@@ -168,8 +168,8 @@ export const process = {
   eyebrow: "COMO FUNCIONA MEU TRABALHO",
   title: "Um processo claro para sua evolução",
   paragraphs: [
-    "Primeira conversa para compreender sua história, demandas e momento de vida. A partir daí, construímos juntos um plano terapêutico baseado em TCC, com objetivos claros e passos que fazem sentido para você.",
-    "O acompanhamento segue com sessões regulares, com escuta qualificada e direcionamento terapêutico de acordo com suas necessidades, trabalhando sua evolução emocional com mais consciência e autonomia ao longo do tempo.",
+    "Primeira conversa para compreender sua história, demandas e momento de vida. A partir daí, construímos juntos um plano terapêutico individualizado, com base em TCC e Terapia Sistêmica Familiar.",
+    "O acompanhamento segue com sessões regulares, com escuta qualificada e direcionamento terapêutico de acordo com suas necessidades, promovendo autoconhecimento e mais qualidade de vida ao longo do tempo.",
   ],
   progressBars: [
     { label: "Escuta acolhedora", value: 100 },
@@ -182,7 +182,7 @@ export const process = {
   },
   image: {
     src: "/images/jadi-processo.png",
-    alt: "Giovanna Mendes sentada, anotando durante uma sessão de atendimento",
+    alt: "Miriam Souza sentada, anotando durante uma sessão de atendimento",
   },
 } as const;
 
@@ -190,25 +190,25 @@ export const reasons = {
   eyebrow: "ALGUNS BENEFÍCIOS DA TERAPIA",
   title: "Quatro motivos para começar agora",
   subtitle:
-    "Psicoterapia de verdade não é sobre respostas prontas — é sobre ser ouvido com atenção, tempo e cuidado em cada etapa do processo.",
+    "Um trabalho pautado na ética, no acolhimento e em práticas baseadas em evidências, para promover mais qualidade de vida.",
   items: [
     {
       number: "01",
-      title: "Tempo de escuta real",
+      title: "Práticas baseadas em evidências",
       description:
-        "Cada sessão tem a duração combinada, sem pressa e sem hora marcada de forma corrida. Você fala, eu escuto de verdade.",
+        "Técnicas de TCC e Terapia Sistêmica Familiar escolhidas com base científica, ajustadas às suas necessidades.",
     },
     {
       number: "02",
-      title: "Devolutiva por escrito",
+      title: "Plano individualizado",
       description:
-        "Ao final do processo de avaliação, você recebe um documento com minhas percepções e o direcionamento do acompanhamento.",
+        "Cada acompanhamento é construído sob medida, respeitando sua história e seus objetivos.",
     },
     {
       number: "03",
-      title: "Abordagem com critério",
+      title: "Cuidado com relacionamentos",
       description:
-        "Cada técnica é escolhida com base em evidências científicas (TCC), com revisão constante ao longo do processo.",
+        "Suporte especializado para casais e famílias que buscam fortalecer vínculos e melhorar a comunicação.",
     },
     {
       number: "04",
@@ -226,31 +226,31 @@ export const faq = {
     eyebrow: "DÚVIDAS FREQUENTES",
     title: "Por que buscar acompanhamento psicológico?",
     paragraphs: [
-      "A terapia é um espaço para encontrar mais clareza diante dos seus conflitos e dificuldades, com o apoio de uma profissional. No acompanhamento psicológico baseado em TCC, existem técnicas práticas que ajudam cada pessoa a reconhecer e trabalhar o que a tem incomodado no dia a dia.",
+      "A terapia é um espaço para encontrar mais clareza diante dos seus conflitos e dificuldades, com o apoio de uma profissional. Com práticas baseadas em evidências, é possível trabalhar ansiedade, depressão, relacionamentos e desenvolvimento emocional de forma estruturada.",
       "Esse processo acontece a partir da relação de confiança entre psicóloga e paciente — por isso, é importante encontrar uma profissional qualificada, ética e responsável, com quem você se sinta à vontade.",
     ],
     ctaLabel: "Mais informações",
   },
   items: [
     {
-      question: "A Giovanna atende convênio?",
+      question: "A Miriam atende convênio?",
       answer:
         "O atendimento é particular, com emissão de recibo para solicitar reembolso junto ao seu plano de saúde, quando aplicável.",
     },
     {
       question: "Como funciona a consulta online?",
       answer:
-        "As consultas online seguem a mesma estrutura das presenciais, com a mesma duração e o mesmo cuidado na avaliação, para pacientes de todo o Brasil.",
+        "As consultas online seguem a mesma estrutura das presenciais, com a mesma duração e o mesmo cuidado na avaliação.",
+    },
+    {
+      question: "A Miriam atende terapia de casal?",
+      answer:
+        "Sim! Além do atendimento individual, a Miriam realiza terapia de casal, com foco em fortalecer a comunicação e o vínculo.",
     },
     {
       question: "Com que frequência são as consultas de retorno?",
       answer:
         "Varia conforme o quadro clínico, mas em geral as sessões acontecem semanalmente ou quinzenalmente, com encaixe prioritário se necessário.",
-    },
-    {
-      question: "A Giovanna atende adolescentes?",
-      answer:
-        "Sim! O foco do atendimento é justamente adolescentes e jovens adultos, com abordagem baseada em TCC Multicomponentes.",
     },
     {
       question: "Como faço para agendar minha primeira sessão?",

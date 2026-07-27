@@ -26,7 +26,7 @@ export default function Hero() {
             altura da imagem), o alinhamento se mantém em qualquer tela. */}
         <Reveal
           direction="up"
-          className="relative -mt-[50%] px-6 pb-14 text-center"
+          className="relative -mt-[77%] px-6 pb-14 text-center"
         >
           <p className="font-lato text-[13px] font-semibold uppercase tracking-[2.3px] text-muted">
             {heroMobile.eyebrow}
@@ -88,7 +88,7 @@ export default function Hero() {
             <ul className="flex flex-col gap-3">
               {hero.checklist.map((item) => (
                 <li key={item} className="flex items-center gap-3">
-                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#22c55e]">
+                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#4D3527]">
                     <Check size={13} strokeWidth={3} className="text-white" />
                   </span>
                   <span className="font-heebo text-[15px] font-medium text-ink">
