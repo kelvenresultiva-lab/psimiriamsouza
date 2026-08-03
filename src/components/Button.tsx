@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 const base =
-  "hover-float inline-flex shrink-0 items-center gap-3 whitespace-nowrap rounded-tl-[15px] rounded-br-[15px] border px-8 py-3 font-lato text-[15px] font-normal uppercase tracking-[1.3px] transition-colors duration-300";
+  "hover-float inline-flex items-center justify-center gap-3 text-center rounded-tl-[15px] rounded-br-[15px] border px-8 py-3 font-lato text-[15px] font-normal uppercase tracking-[1.3px] transition-colors duration-300";
 
 const variants = {
   primary:
