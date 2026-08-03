@@ -66,7 +66,7 @@ export const heroMobile = {
   eyebrow: "PSICÓLOGA CLÍNICA",
   title: "Miriam Souza",
   tagline: "UM ESPAÇO SEGURO PARA VOCÊ SE ENCONTRAR.",
-  ctaLabel: "Quero iniciar meu processo terapêutico",
+  ctaLabel: "Iniciar meu processo",
   image: {
     src: "/images/jadi-hero-mobile-2.png",
     alt: "Miriam Souza sorrindo em seu consultório",
