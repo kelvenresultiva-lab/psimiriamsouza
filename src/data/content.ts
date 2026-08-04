@@ -65,7 +65,7 @@ export const heroStat = {
 export const heroMobile = {
   eyebrow: "PSICÓLOGA CLÍNICA",
   title: "Miriam Souza",
-  tagline: "UM ESPAÇO SEGURO PARA VOCÊ SE ENCONTRAR.",
+  tagline: "Você não precisa enfrentar tudo sozinha. Aqui, você encontra um espaço acolhedor para cuidar de si e fortalecer sua autoestima.",
   ctaLabel: "Iniciar meu processo",
   image: {
     src: "/images/jadi-hero-mobile-2.png",
@@ -119,15 +119,11 @@ export const gallery = {
   images: [
     {
       src: "/images/jadi-consultorio-01.png",
-      alt: "Sala de atendimento, com sofá e poltrona",
+      alt: "Mesa de trabalho da Miriam Souza, com quadros decorativos na parede",
     },
     {
       src: "/images/jadi-consultorio-02.png",
-      alt: "Ambiente aconchegante da sala de atendimento",
-    },
-    {
-      src: "/images/jadi-consultorio-03.png",
-      alt: "Cantinho de leitura da sala de atendimento",
+      alt: "Ambiente de atendimento com poltronas para os pacientes",
     },
   ],
 } as const;

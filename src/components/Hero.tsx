@@ -26,7 +26,7 @@ export default function Hero() {
             altura da imagem), o alinhamento se mantém em qualquer tela. */}
         <Reveal
           direction="up"
-          className="relative -mt-[77%] px-6 pb-14 text-center"
+          className="relative -mt-[77%] px-6 pb-4 text-center"
         >
           <p className="font-lato text-[13px] font-semibold uppercase tracking-[2.3px] text-muted">
             {heroMobile.eyebrow}
@@ -41,12 +41,17 @@ export default function Hero() {
             <span className="h-px flex-1 bg-gold-bright/40" />
           </div>
 
-          <p className="mx-auto mt-5 max-w-xs font-heebo text-sm font-medium uppercase tracking-[1.5px] text-ink/80">
+          <p className="mx-auto mt-5 max-w-sm font-heebo text-base font-normal leading-relaxed text-ink/80">
             {heroMobile.tagline}
           </p>
 
-          <div className="mt-7 flex justify-center">
-            <Button href={whatsappLink()}>{heroMobile.ctaLabel}</Button>
+          <div className="mt-7 flex flex-col items-center gap-3">
+            <Button href={whatsappLink()} className="!w-full !justify-center">
+              {heroMobile.ctaLabel}
+            </Button>
+            <Button href={hero.ctaSecondaryHref} variant="outline" className="!w-full !justify-center !bg-white !shadow-none">
+              {hero.ctaSecondaryLabel}
+            </Button>
           </div>
         </Reveal>
       </div>

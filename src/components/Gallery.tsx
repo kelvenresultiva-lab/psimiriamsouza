@@ -2,7 +2,6 @@ import Image from "next/image";
 import { gallery } from "@/data/content";
 import Reveal from "@/components/Reveal";
 import DragScroll from "@/components/DragScroll";
-
 export default function Gallery() {
   return (
     <section id={gallery.id} className="bg-white py-20 lg:py-28">
@@ -16,20 +15,19 @@ export default function Gallery() {
           </h2>
         </Reveal>
       </div>
-
       <Reveal direction="up" delay={100} className="mt-12">
-        <DragScroll className="gap-6 px-6 sm:px-[max(1.5rem,calc((100%-1140px)/2))]">
+        <DragScroll className="gap-6 px-6 sm:justify-center sm:px-[max(1.5rem,calc((100%-1140px)/2))]">
           {gallery.images.map((image) => (
             <div
               key={image.src}
-              className="relative aspect-square w-[78vw] max-w-[360px] shrink-0 overflow-hidden sm:w-[calc((100%-3rem)/3)]"
+              className="relative aspect-square w-[78vw] max-w-[360px] shrink-0 overflow-hidden sm:w-[calc((100%-1.5rem)/2)]"
             >
               <Image
                 src={image.src}
                 alt={image.alt}
                 fill
                 draggable={false}
-                sizes="(min-width: 640px) 33vw, 78vw"
+                sizes="(min-width: 640px) 50vw, 78vw"
                 className="pointer-events-none object-cover"
               />
             </div>
