@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { GraduationCap } from "lucide-react";
-import { about, heroStat } from "@/data/content";
+import { about, heroStat, process, whatsappLink } from "@/data/content";
+import Button from "@/components/Button";
 import Reveal from "@/components/Reveal";
-
 export default function About() {
   return (
     <section id="sobre" className="bg-surface pt-10 pb-20 lg:pt-14 lg:pb-28">
@@ -20,7 +20,6 @@ export default function About() {
               className="object-cover"
             />
           </Reveal>
-
           <Reveal
             direction="left"
             delay={200}
@@ -36,7 +35,6 @@ export default function About() {
               </span>
             </div>
           </Reveal>
-
           <Reveal
             direction="up"
             delay={300}
@@ -57,7 +55,6 @@ export default function About() {
             </div>
           </Reveal>
         </div>
-
         <Reveal direction="right" className="flex flex-col gap-6">
           <div>
             <p className="font-lato text-[15px] font-semibold uppercase tracking-[2.3px] text-gold">
@@ -67,7 +64,6 @@ export default function About() {
               {about.title}
             </h2>
           </div>
-
           {about.paragraphs.map((paragraph) => (
             <p
               key={paragraph}
@@ -76,6 +72,9 @@ export default function About() {
               {paragraph}
             </p>
           ))}
+          <div>
+            <Button href={whatsappLink()}>{process.ctaLabel}</Button>
+          </div>
         </Reveal>
       </div>
     </section>
