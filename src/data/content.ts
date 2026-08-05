@@ -29,12 +29,13 @@ export function whatsappLink(customMessage?: string) {
   return `https://wa.me/${site.whatsappNumber}?text=${message}`;
 }
 export const nav = [
-  { label: "Início", href: "#hero" },
-  { label: "Especialidades", href: "#especialidades" },
-  { label: "Sobre mim", href: "#sobre" },
-  { label: "Consultório", href: "#consultorio" },
-  { label: "Como funciona", href: "#processo" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Início", href: "/#hero" },
+  { label: "Especialidades", href: "/#especialidades" },
+  { label: "Sobre mim", href: "/#sobre" },
+  { label: "Consultório", href: "/#consultorio" },
+  { label: "Como funciona", href: "/#processo" },
+  { label: "FAQ", href: "/#faq" },
+  { label: "Blog", href: "/blog" },
 ] as const;
 export const header = {
   ctaLabel: "Agende sua primeira sessão",
