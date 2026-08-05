@@ -6,7 +6,7 @@ export const site = {
   city: "Contagem",
   state: "MG",
   address: {
-    street: "Rua Antônio Bernardino Muniz, 143 - Centro",
+    street: "Rua Antônio Bernardino Muniz, 143 - Sala 309, Centro",
     cityLine: "Contagem - MG, 32040-630",
     mapsUrl: "https://www.google.com/maps?q=Rua+Ant%C3%B4nio+Bernardino+Muniz,+143,+Centro,+Contagem+-+MG",
     embedQuery: "Rua Antônio Bernardino Muniz, 143, Centro, Contagem - MG",
@@ -65,7 +65,7 @@ export const heroStat = {
 export const heroMobile = {
   eyebrow: "PSICÓLOGA CLÍNICA",
   title: "Miriam Souza",
-  tagline: "Você não precisa enfrentar tudo sozinha. Aqui, você encontra um espaço acolhedor para cuidar de si e fortalecer sua autoestima.",
+  tagline: "Você não precisa enfrentar tudo sozinha(o). Aqui, você encontra um espaço acolhedor para cuidar de si e fortalecer sua autoestima.",
   ctaLabel: "Iniciar meu processo",
   image: {
     src: "/images/jadi-hero-mobile-2.png",
