@@ -11,27 +11,29 @@ export default function Header() {
         <a href="#hero" className="font-mosseta text-2xl text-ink" style={{ letterSpacing: "1.1px" }}>
           {site.name}
         </a>
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-5 xl:flex">
           {nav.map((item) => (
-            <a key={item.href} href={item.href} className="font-lato text-[15px] font-semibold text-ink transition-colors hover:text-gold-bright">
+            <a key={item.href} href={item.href} className="whitespace-nowrap font-lato text-sm font-semibold text-ink transition-colors hover:text-gold-bright">
               {item.label}
             </a>
           ))}
         </nav>
-        <div className="hidden lg:block">
-          <Button href={whatsappLink()}>{header.ctaLabel}</Button>
+        <div className="hidden xl:block">
+          <Button href={whatsappLink()} className="whitespace-nowrap px-6 py-2.5 text-xs">
+            {header.ctaLabel}
+          </Button>
         </div>
         <button
           type="button"
           aria-label={open ? "Fechar menu" : "Abrir menu"}
-          className="text-ink lg:hidden"
+          className="text-ink xl:hidden"
           onClick={() => setOpen((v) => !v)}
         >
           {open ? <X size={26} /> : <Menu size={26} />}
         </button>
       </div>
       {open && (
-        <div className="border-t border-line bg-white px-6 pb-6 lg:hidden">
+        <div className="border-t border-line bg-white px-6 pb-6 xl:hidden">
           <nav className="flex flex-col gap-4 pt-4">
             {nav.map((item) => (
               <a key={item.href} href={item.href} onClick={() => setOpen(false)} className="font-lato text-[15px] font-semibold text-ink hover:text-gold-bright">
