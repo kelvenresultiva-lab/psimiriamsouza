@@ -16,8 +16,10 @@ export const site = {
   whatsappMessage:
     "Olá, Miriam! Quero agendar minha primeira sessão e saber mais sobre o acompanhamento psicológico.",
   email: "consultoriopsic1969@gmail.com",
-  instagramHandle: "@psic.miriamsouza",
-  instagramUrl: "https://www.instagram.com/psic.miriamsouza",
+  instagramAccounts: [
+    { handle: "@psic.miriamsouza", url: "https://www.instagram.com/psic.miriamsouza" },
+    { handle: "@pramiriam_souzas", url: "https://www.instagram.com/pramiriam_souzas/" },
+  ],
   hours: "Segunda a Sexta: 8h às 18h",
   hoursNote: "As consultas necessitam ser previamente agendadas.",
   modality: "Atendimento presencial em Contagem (MG) e online para todo o Brasil",

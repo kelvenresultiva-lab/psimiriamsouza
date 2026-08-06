@@ -13,10 +13,18 @@ export default function Footer() {
           <p className="mt-4 font-heebo text-sm font-light leading-relaxed">
             {footer.about}
           </p>
-          <a href={site.instagramUrl} target="_blank" rel="noopener noreferrer" className="mt-4 flex items-center gap-2 font-heebo text-sm hover:text-gold-bright">
-            <AtSign size={16} className="text-gold-bright" />
-            {site.instagramHandle}
-          </a>
+          {site.instagramAccounts.map((account) => (
+            <a
+              key={account.url}
+              href={account.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 flex items-center gap-2 font-heebo text-sm hover:text-gold-bright"
+            >
+              <AtSign size={16} className="text-gold-bright" />
+              {account.handle}
+            </a>
+          ))}
         </div>
         <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
           <h4 className="font-playfair text-lg font-semibold text-white">
