@@ -19,7 +19,7 @@ export default function Header() {
           ))}
         </nav>
         <div className="hidden xl:block">
-          <Button href={whatsappLink()} className="whitespace-nowrap px-6 py-2.5 text-xs">
+          <Button href={whatsappLink()} className="whitespace-nowrap !px-5 !py-2.5 !text-xs">
             {header.ctaLabel}
           </Button>
         </div>
