@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   title: pageTitle,
   description: site.metaDescription,
   icons: {
-    icon: "/images/logo-giovanna-mendes.png",
+    icon: "/images/logo-miriam-souza.png",
   },
   openGraph: {
     title: pageTitle,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/logo-giovanna-mendes.png",
+        url: "/images/logo-miriam-souza.png",
         width: 1254,
         height: 1254,
         alt: `Logo ${site.name}`,
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: pageTitle,
     description: site.metaDescription,
-    images: ["/images/logo-giovanna-mendes.png"],
+    images: ["/images/logo-miriam-souza.png"],
   },
 };
 export default function RootLayout({

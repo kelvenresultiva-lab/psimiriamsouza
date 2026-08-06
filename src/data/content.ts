@@ -1,3 +1,11 @@
+export const brand = {
+  logo: {
+    src: "/images/logo-miriam-souza-mono.png",
+    alt: "Miriam Souza",
+    width: 1254,
+    height: 1254,
+  },
+} as const;
 export const site = {
   name: "Miriam Souza",
   fullName: "Miriam Souza",
